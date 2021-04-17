@@ -1,0 +1,34 @@
+
+
+body {
+  background-color: #dddddd;
+  /* padding: 2%; */
+}
+
+.btn1 {
+  width: 160px;
+  height: 50px;
+  background-color: #dddddd;
+  border: none;
+  font-size: 1.1rem;
+}
+
+.flex1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  margin-left: 22px;
+  /* position: sticky; */
+}
+
+.btn1:hover {
+  background-color: #6e7c7c;
+  color: white;
+  border: 3px solid #999999;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  -webkit-transition: ease-out 0.5s;
+  -moz-transition: ease-out 0.5s;
+  /* transition-delay: 1s; */
+}

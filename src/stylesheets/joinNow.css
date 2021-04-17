@@ -1,0 +1,77 @@
+.container {
+  height: 50vh;
+  padding: 5%;
+  /* margin: 10px; */
+  /* position: absolute; */
+  width: 98%;
+  padding: 1%;
+  /* left: 50%;
+  top: 10%;
+  transform: translate(-50%, -15%); */
+}
+
+.container2 {
+  padding: 2%;
+  border: 3px solid black;
+}
+
+.home1 {
+  font-size: 2.2vh;
+}
+
+.input1 {
+  height: 4vh;
+  width: 25%;
+  border: none;
+  border-bottom: 2px solid black;
+  border-right: 1px solid black;
+}
+input,
+input::-webkit-input-placeholder {
+  font-size: 20px;
+  line-height: 4;
+}
+
+.row {
+  padding: 5px;
+  direction: none;
+  display: flex;
+  text-decoration: none;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+.button1 {
+  height: 5vh;
+  width: 15%;
+  text-decoration: none;
+  display: inline-block;
+}
+.headMain {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1%;
+}
+.buttons {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  height: 5vh;
+  min-width: none;
+  font-size: 5vh;
+  /* padding: 10px;
+      /* margin: 10px; */
+  /* font-size: 2vh; */
+  /* padding: 1%;
+  font-size: 1.6vh; */
+  /* height: 100px;
+  width: 100px; */
+}
+
+.logo {
+  height: 6vh;
+  width: 20%;
+}

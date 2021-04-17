@@ -1,0 +1,31 @@
+.college {
+  position: relative;
+  overflow: hidden;
+}
+
+.cards {
+  display: flex;
+  height: 65vh;
+  overflow-x: scroll;
+  /* background-color: yellow; */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  padding: 1%;
+}
+
+.college__head {
+  text-align: center;
+}
+
+.college__details {
+  position: relative;
+  align-items: center;
+  text-align: center;
+  padding: 2%;
+  left: 44%;
+}

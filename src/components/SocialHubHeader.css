@@ -1,0 +1,23 @@
+/* .Social_Header2 {
+  position: absolute;
+  left: 50%;
+  margin-left: 500px;
+} */
+
+.Social_Header2 {
+    position: absolute;
+    /* left: 30%; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    height: 10px;
+  }
+  
+  .card22 {
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+    width: 70%;
+    height: 100vh;
+  }
+  
